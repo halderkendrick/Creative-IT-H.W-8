@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+ul, ol{
+    list-style: none;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container{
+    width: 1320px;
+    height: 72px;
+    margin: 0 auto;
+}
+/* ===========================
+         Common Css End
+============================ */
+#main_menu{
+    height: 1320px;
+    width: 100%;
+    background-image: url(../image/header-no-sep\ 1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo_col{
+    width: 20%;
+    float: left;
+}
+.menu_col{
+    width: 60%;
+    float: left;
+}
+.menu_col ul{
+    width: fit-content;
+    margin: 0 auto;
+    line-height: 72px;
+}
+.menu_col ul li{
+    float: left;
+}
+.menu_col ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0 25px;
+    color: #F6F0F0;
+    transition: all linear .3s;
+}
+.menu_col ul li a:hover{
+    color: #FF9600;
+}
+#main_menu .button_col a{
+    width: 200px;
+    height: 62px;
+    background-color: #FF9600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F6F0F0;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 62px;
+    float: right;
+    margin-top: 5px;
+}
